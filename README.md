@@ -19,7 +19,7 @@ Specify a **named** volume:
 
 ## Challenge 3
 
-Create a **pagekitnet** network for both services.
+Create two networks **pagekitnet_internal** and **pagekitnet_external**. Specify both networks for the **pagekit** service and only **pagekitnet_internal** for the **mysql** service.
 
 ## Challenge 4
 
