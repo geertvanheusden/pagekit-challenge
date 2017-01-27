@@ -27,7 +27,7 @@ Start the services and configure pagekit.
 
 ## Challenge 5
 
-Add a **backup** service that will create a mysql dump every 5 minutes
+Add a **backup** service that will create a mysql dump every 5 minutes and place it in a **mounted** volume backup.
 
 Tips: 
  - https://github.com/tutumcloud/mysql-backup
